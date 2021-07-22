@@ -1,0 +1,240 @@
+/* yellow #FFD700; 
+    black #262626;    */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    background-color: #FFD700; 
+    color: #262626;
+    font-family: 'Dosis', sans-serif;
+    font-weight:400;
+    font-size: 24px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.row {
+    max-width: 1198px;
+    margin: 0 auto;
+}
+
+/* ----------- HEADINGS ------------- */
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    text-transform: none;
+    
+}
+
+
+/* ------------------------------------
+            HEADER            
+------------------------------------- */
+nav {
+    margin-top: 45px;
+}
+nav h2 {
+    float: left;
+    font-size: 48px;
+}
+.header-nav {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+    font-size: 22px;
+}
+.header-nav li {
+    display: inline;
+    margin-left: 40px;
+}
+.header-nav li a:link,
+.header-nav li a:visited {
+    text-decoration: none;
+    color: #262626;
+    transition: text-shadow 0.2s
+}
+.header-nav li a:hover,
+.header-nav li a:active {
+    text-shadow: 0 0 5px #262626;
+}
+
+.header-elements {
+    margin: 105px auto;
+}
+.header-text {
+    width: 615px;
+    text-align: right;
+    float: left;
+}
+.big-text {
+    font-size: 150px;
+    font-weight: 700; 
+}
+.small-text {
+    line-height: 150%;
+    margin: 20px 0 20px 60px;
+    
+}
+.header-text a {
+    text-decoration: none;
+}
+.header-text a:link,
+.header-text a:visited {
+    color: #262626;
+    font-weight: 700;
+    
+}
+.header-text a:hover,
+.header-text a:active {
+    text-shadow:  0 0 5px #262626;
+}
+.header-elements img {
+    float: right;
+    margin-right: 105px;
+    height: 520px;
+}
+
+/* ------------------------------------
+            FEATURED PRODUCT          
+------------------------------------- */
+.featured-elements {
+    background-color: #262626; 
+    
+}
+.featured-text {
+    color: #FFD700;
+    text-align: center;
+    margin: 114px auto;
+    width: 615px;
+}
+.portfolio {
+    width: 1057px;
+    margin: -50px auto;
+    margin-bottom: 72px;
+}
+
+
+.box {
+    height: 385px;
+    border-radius: 10px;
+}
+.hoverport {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-color: #FFD700;
+    opacity: 0;
+    transition: 0.3s;
+}
+.hover-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 232px;
+}
+.hover-text:after {
+    display: block;
+    height: 2px;
+    width: 75px;
+    background-color: #262626;; 
+    content: " ";
+    margin-top: 10px;
+    margin-bottom: 39px;
+}
+.hoverport:hover {
+    opacity: 1;
+}
+.zvucnik {
+    background-image: url(img/zvucnik.jpg);
+    background-size: cover;
+}
+.slusalice {
+    background-image: url(img/slusalice-crvene.jpg);
+    background-size: cover;
+}
+.narukvica {
+    background-image: url(img/narukvica.jpg);
+    background-size: cover;
+}
+.cipele {
+    background-image: url(img/cipele.jpg);
+    background-size: cover;
+}
+.stolica {
+    background-image: url(img/stolica.jpg);
+    background-size: cover;
+}
+
+
+/* ----------------------------
+           footer
+------------------------------ */
+
+.footer-elements {
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-elements h2 {
+    text-transform: uppercase;
+}
+.footer-text {
+    width: 615px;
+    margin: 25px auto;
+    font-size: 18px;
+}
+.form {
+    height: 70px;
+}
+.form input {
+    height: 100%;
+}
+.mail {
+    width: 490px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 30px;
+}
+.subscribe {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -10px;
+    background-color: #262626;
+    color: #FFD700;
+    font-size: 20px;
+    width: 200px;
+}
+.social {
+    list-style: none;
+    margin-top: 110px;
+}
+.social li {
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+}
+.social li a:link,
+.social li a:visited {
+    color: #262626;
+}
+.social li a:hover,
+.social li a:active {
+    text-shadow: 0 0 5px #262626;
+}
+
+.copy-text {
+    margin: 70px 0 20px 0;
+    font-size: 18px;
+    
+}

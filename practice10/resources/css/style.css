@@ -1,0 +1,320 @@
+/* orange #febe11;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    background-color: #e2e2e2;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.row {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* ----------- HEADINGS ------------- */
+
+h1,
+h2,
+h4 {
+    font-weight: 600;
+}
+h4 {
+    text-transform: uppercase;
+    color: #000;
+}
+h4:after {
+    display: block;
+    height: 3px;
+    width: 45px;
+    background-color: #cbc8c8; 
+    content: " ";
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-weight: 400;
+}
+
+/* ------------------------------------
+            HEADER            
+------------------------------------- */
+header {
+    background-color: #e2e2e2;
+}
+
+nav {
+    margin: 45px auto;
+    padding-right: 35px;
+}
+.logo {
+    float: left;
+}
+.header-nav {
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px
+}
+.header-nav li {
+    display: inline;
+    margin-right: 30px;
+}
+.header-nav li a:link,
+.header-nav li a:visited {
+    text-decoration: none;
+    color: #000;
+    border: solid 2px transparent;
+    transition: border 0.3s;
+    padding: 5px;
+}
+.header-nav li a:hover,
+.header-nav li a:active {
+    border: solid 2px #febe11;
+}
+.header-elements {
+    text-align: center;
+    margin: 125px auto;
+    margin-bottom: 20px;
+}
+.header-elements h1 {
+    color: #000;
+    font-size: 36px;
+}
+.header-elements h3 {
+    color: #898989;
+    margin-top: -20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+/* ------------------------------------
+            FAN STORE         
+------------------------------------- */
+.fan {
+    float: left;
+    width: 50%;
+}
+.fan p {
+    padding-right: 30px;
+    line-height: 200%
+}
+
+.fan a:link,
+.fan a:visited {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    color: #000;
+    padding: 20px;
+    border: solid 1px #000;
+    transition: background-color 0.3s;
+}
+.fan a:hover,
+.fan a:active {
+    background-color: #febe11;
+}
+.store {
+    float: right;
+    width: 50%;
+    background-color: #fff;
+}
+.store h3 {
+    margin: 20px auto;
+}
+.store i {
+    font-size: 30px;
+    padding: 0 15px;
+    background-color: #febe11;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+.store p {
+    margin-bottom: 40px;
+}
+.store i:hover,
+.store i:active {
+    background-color: #e2e2e2;
+    color: #000;
+}
+.store-left,
+.store-right {
+    float: left;
+    width: 50%;
+    padding: 10px 50px;
+    line-height: 150%;
+    position: relative;
+}
+.store-left {
+    float: left;
+    border-right: solid 3px #e2e2e2;
+}
+.ion-ios-arrow-back {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    
+}
+.store-right {
+    float: right;
+}
+.store-right h3 {
+    margin-top: 40px
+}
+.ion-ios-arrow-forward {
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+/* ------------------------------------
+            NEWS-BEARINGS      
+------------------------------------- */
+.news-bearings {
+    background-color: #febe11;
+}
+.news {
+    background-color: #febe11;
+    width: 50%;
+    float: left;
+    height: 375px;
+}
+.news-left {
+    width: 50%;
+    height: 100%;
+    border-right: solid 3px #e2e2e2;
+    padding-right: 40px;
+    float: left;
+}
+.news p {
+    margin-bottom: 20px;
+    line-height: 200%
+}
+.news-left h4 {
+    padding-top: 30px;
+}
+.news-left p:last-child {
+    padding-bottom: 30px;
+}
+
+.news-right {
+    width: 50%;
+    float: right;
+    padding: 0 30px 
+}
+
+.news-right p:first-child {
+    margin-top: 85px;
+}
+.bearings {
+    width: 50%;
+    float: right;
+    height: 375px;
+}
+.bearings-left {
+    width: 50%;
+    height: 100%;
+    background-color: #e2e2e2;
+    padding: 30px;
+    float: left;
+}
+.bearings-left h3 {
+    margin-top: 47px;
+}
+.bearings-left p {
+    margin-top: 35px
+}
+.price {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.bearings-img {
+    width: 50%;
+    float: right;
+    background-image: url(img/bearings.jpg);
+    height: 100%;
+    background-size: cover;
+}
+/* ----------------------------
+           footer
+------------------------------ */
+footer {
+    background-color: #fff;
+}
+.contact {
+    width: 50%;
+    float: left;
+}
+.contact h2 {
+    font-size: 21px;
+    font-weight: 300;
+    margin: 30px 0;
+}
+.form {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.form input {
+    margin-bottom: 20px;
+    width: 275px;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+textarea {
+    width: 275px;
+    height: 110px;
+    padding: 10px;
+}
+input[type=submit] {
+    width: 90px;
+    height: 50px;
+    padding: 0;
+    background-clip: #fff;
+    margin-top: 20px;
+}
+.info {
+    width: 50%;
+    float: right;
+}
+.info h4 {
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 21px;
+}
+.info h4:after {
+    margin-top: 15px;
+}
+.social {
+    list-style: none;
+}
+.social li {
+    display: inline;
+    margin-right: 20px;
+}
+.social li a:link,
+.social li a:visited{
+    font-size: 25px;
+    color: #e2e2e2;
+}
+.social li a:hover,
+.social li a:active {
+    color: #febe11;
+}
+.maps {
+    width: 50%;
+    float: right;
+}
