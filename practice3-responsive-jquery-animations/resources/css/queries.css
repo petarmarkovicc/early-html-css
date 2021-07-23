@@ -1,0 +1,147 @@
+@media only screen and (max-width: 767px) { 
+    
+    .header-box {
+        top:0;
+    }
+    
+    .post-text-box {
+        padding: 0 80px;
+        text-align: center;
+    }
+    
+    .post-text-box h2 {
+        font-size: 30px;
+    }
+    .p-italic {
+        width: 70%;
+    }
+    
+    .person-box {
+        width: 300px;
+        margin: 10px;
+        min-height: 500px;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    html,
+    body {
+    font-size: 17px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    
+    .row {
+        100%;
+    }
+    
+    /*------Header-----*/
+    
+    header {
+        padding: 10px;
+        height: 400px;
+    }
+    
+    .header-box {
+       width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+        top:100px;
+    }
+    .header-box h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    
+    
+    /*------s.pictures-----*/
+    
+    .section-pictures {
+        padding: 20px 5px;
+    }
+    
+    .navigation {
+        margin-bottom: 20px;
+    }
+    
+    /*------s.blog-----*/
+    
+    .section-blog {
+        padding: 30px 0px;
+    }
+    
+    .blog-title {
+        margin-bottom: 20px;
+    }
+    
+    .p-italic {
+        font-size: 15px;
+        width: 70%;
+    }
+    
+    .post-box {
+        padding: 40px 5px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .post-box h2 {
+        font-size: 25px;
+    }
+    
+    .post-text-box {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+    
+    .post-img {
+        height: 250px;
+    }
+    
+    /*-------s.testimonials------*/
+    
+    .section-testimonials {
+        padding: 20px 0px;
+    }
+    
+    .testimonials-title {
+        margin-bottom: 20px;
+    }
+    
+    .person-box {
+        width: 100%;
+        margin: 10px 0;
+        min-height: auto;
+    }
+    
+    .testimonials-box {
+        margin: 0;
+    }
+    
+    footer {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    
+    .social { margin-top: 10px;}
+    
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+

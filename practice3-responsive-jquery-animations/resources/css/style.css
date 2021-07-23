@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    background-color: #9b9b9b; 
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 24px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.row {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* ----------- HEADINGS ------------- */
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* ------------------------------------
+            HEADER            
+------------------------------------- */
+header {
+    text-align: center;
+    padding: 100px;
+    background-image: url(img/daniel-leone-185834.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-box {
+    position: relative;
+    top:100px;
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+.header-box h1 {
+    margin: 10px 0;
+}
+
+.header-box p {
+    font-weight: 300;
+    color: #c9bbbb;
+}
+
+.header-box button {
+    margin: 30px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #2f89c9;
+    border: solid 1px #352e2e;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color 0.2s;
+}
+
+.header-box button:hover{
+    background-color: #236797;
+    color: #e4e4e4;
+}
+
+
+
+
+
+/* ------------------------------------
+            SECTION-pictures          
+------------------------------------- */
+.section-pictures {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.navigation {
+    margin: 0px auto;
+    margin-bottom: 50px;
+    list-style: none;
+    width: 50%;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation li a:link,
+.navigation li a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:#909090;
+    padding: 3px 15px;
+    border-radius: 2px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.navigation li a:hover,
+.navigation li a:active {
+    color: #000;
+    background-color:#d1d1d1 
+}
+
+.picture-box {
+    width: 100%;
+}
+
+.picture-showcase {
+    list-style: none;
+}
+
+.picture-showcase li {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+.photo {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    width: 100%;
+    opacity: 0.7;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------------------------
+            section blog      
+------------------------------------- */
+.section-blog {
+    background-color: #f7f7f7;;
+    color:#000;
+    padding: 70px 0;
+}
+
+.blog-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.p-italic {
+    font-style: italic;
+    color: #a3a3a3;
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.post-box {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 50px;
+    border: solid 1px #d7d7d7;
+    padding: 50px;
+}
+
+.post-box h2 {
+    text-align: center;
+}
+
+.small-italic {
+    text-align: center;
+    font-size: 15px !important;
+    margin-top: 0 !important;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+.post-text-box {
+    padding: 0 150px;
+    margin-top: 50px;
+}
+
+.post-text-box p{
+    font-size: 20px;
+    margin-top: 50px;
+    color: #505050;
+}
+
+.comments {
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.post-text-box a:link,
+.post-text-box a:visited {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.1s;
+}
+.post-text-box a:hover{
+    color: #a8a8a8;
+}
+
+.post-img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    
+}
+
+.img1 {
+    background-image: url(img/blog_1.jpg);
+}
+
+.img2 {
+    background-image: url(img/blog_2.jpg);
+}
+
+.img3{
+    display: none;
+}
+
+.img4 {
+    background-image: url(img/blog_4.jpg);
+}
+
+.img5 {
+    background-image: url(img/blog_5.jpg);
+}
+
+.img6 {
+    display: none;
+}
+
+/* ----------------------------
+        section testimonials
+------------------------------ */
+
+.section-testimonials{
+    background-color: #fff;
+    color: #000;
+    padding: 100px 0;
+}
+
+.testimonials-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.person-box {
+    width: 350px;
+    display:inline-table;
+    margin: 20px;
+    font-size: 17px;
+    min-height: 450px;
+    padding: 20px;
+    background-color: #ececec;
+    border: solid 1px #c2c2c2;
+}
+
+.person-box p {
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000 !important;
+}
+
+.person-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 30px auto;
+}
+
+.person1 {
+    background-image: url(img/p1.jpg);
+}
+
+.person2 {
+    background-image: url(img/p2.jpg);
+}
+
+.person3 {
+    background-image: url(img/p3.jpg);
+}
+
+.person4 {
+    background-image: url(img/p4.jpg);
+}
+
+.person5 {
+    background-image: url(img/p5.jpg);
+}
+
+.person6 {
+    background-image: url(img/p6.jpg);
+}
+
+ .testemonials-box {
+    text-align: center;
+}
+
+/* ----------------------------
+           footer
+------------------------------ */
+
+footer {
+    background-color: #bab2b2;
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer a:link,
+footer a:visited{
+    text-decoration: none;
+    color: #5d628b;
+}
+
+footer a:hover {
+    color:#000;
+}
+
+.social {
+    list-style: none;
+    margin-top: 20px;
+}
+.social li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.social li a:link,
+.social li a:visited {
+    color:#4f4b4b;
+    transition: color 0.2s;
+}
+.social li a:hover {
+    color: #fff;
+}
+
+/*-----------------------------------------------------------------------*/
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal img {
+    opacity: 1;
+}
+
+/*--------------------animation-----------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6{
+    opacity: 0;
+}
+
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated{
+    opacity: 1;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
